@@ -1,0 +1,788 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Metadata": {
+    "AWS::CloudFormation::Designer": {
+      "9f601432-e0de-4306-b5e3-a19b6a8e4672": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": 210,
+          "y": -20
+        },
+        "z": 1,
+        "embeds": [],
+        "dependson": [
+          "d81b4d45-7477-45c7-9695-d6ef0b09de4a"
+        ],
+        "isrelatedto": [
+          "d81b4d45-7477-45c7-9695-d6ef0b09de4a"
+        ]
+      },
+      "80011600-6dad-4c96-a0f3-5ff4538511ca": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": 340,
+          "y": 90
+        },
+        "z": 1,
+        "embeds": []
+      },
+      "d81b4d45-7477-45c7-9695-d6ef0b09de4a": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": 340,
+          "y": -20
+        },
+        "z": 1,
+        "embeds": [],
+        "isrelatedto": [
+          "80011600-6dad-4c96-a0f3-5ff4538511ca",
+          "a4301ea6-beb0-4574-bc58-534ac3ebd068"
+        ]
+      },
+      "52eb4fef-4fd3-4bc1-b921-47131f09764c": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": 470,
+          "y": 90
+        },
+        "z": 1,
+        "embeds": [],
+        "isassociatedwith": [
+          "80011600-6dad-4c96-a0f3-5ff4538511ca"
+        ],
+        "dependson": [
+          "80011600-6dad-4c96-a0f3-5ff4538511ca"
+        ]
+      },
+      "8447b067-3119-4adc-9996-11be4591a684": {
+        "source": {
+          "id": "52eb4fef-4fd3-4bc1-b921-47131f09764c"
+        },
+        "target": {
+          "id": "80011600-6dad-4c96-a0f3-5ff4538511ca"
+        },
+        "z": 2
+      },
+      "92bbb6b6-2098-40ce-ae30-b4247ebe3b80": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": 470,
+          "y": -20
+        },
+        "z": 1,
+        "embeds": [],
+        "isassociatedwith": [
+          "d81b4d45-7477-45c7-9695-d6ef0b09de4a"
+        ],
+        "dependson": [
+          "d81b4d45-7477-45c7-9695-d6ef0b09de4a"
+        ]
+      },
+      "1ae41a72-0833-4b7f-8548-14519f10d9ec": {
+        "source": {
+          "id": "92bbb6b6-2098-40ce-ae30-b4247ebe3b80"
+        },
+        "target": {
+          "id": "d81b4d45-7477-45c7-9695-d6ef0b09de4a"
+        },
+        "z": 3
+      },
+      "6ea3fbe3-61a6-4649-839b-6453f48a82bf": {
+        "source": {
+          "id": "92bbb6b6-2098-40ce-ae30-b4247ebe3b80"
+        },
+        "target": {
+          "id": "d81b4d45-7477-45c7-9695-d6ef0b09de4a"
+        },
+        "z": 11
+      },
+      "d20681ee-3337-4f10-bc7e-f331786ea1be": {
+        "source": {
+          "id": "52eb4fef-4fd3-4bc1-b921-47131f09764c"
+        },
+        "target": {
+          "id": "80011600-6dad-4c96-a0f3-5ff4538511ca"
+        },
+        "z": 12
+      },
+      "56c7feb6-a4e3-4a13-a269-088820463b3d": {
+        "source": {
+          "id": "9f601432-e0de-4306-b5e3-a19b6a8e4672"
+        },
+        "target": {
+          "id": "d81b4d45-7477-45c7-9695-d6ef0b09de4a"
+        },
+        "z": 13
+      },
+      "a4301ea6-beb0-4574-bc58-534ac3ebd068": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": 210,
+          "y": 90
+        },
+        "z": 1,
+        "embeds": [],
+        "dependson": [
+          "c65de216-230b-482b-8372-53b9405e16a4"
+        ],
+        "isrelatedto": [
+          "c65de216-230b-482b-8372-53b9405e16a4"
+        ]
+      },
+      "c65de216-230b-482b-8372-53b9405e16a4": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": 210,
+          "y": 200
+        },
+        "z": 1,
+        "embeds": []
+      },
+      "153297be-1706-4be9-bcbd-0dac0f0dae4e": {
+        "source": {
+          "id": "a4301ea6-beb0-4574-bc58-534ac3ebd068"
+        },
+        "target": {
+          "id": "c65de216-230b-482b-8372-53b9405e16a4"
+        },
+        "z": 2
+      },
+      "3239f934-289d-45f2-8b93-467236eba2bb": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": 90,
+          "y": 90
+        },
+        "z": 0,
+        "embeds": [],
+        "isassociatedwith": [
+          "a4301ea6-beb0-4574-bc58-534ac3ebd068"
+        ]
+      },
+      "5b23feab-f423-4635-8a75-4b2f296ab3e1": {
+        "source": {
+          "id": "3239f934-289d-45f2-8b93-467236eba2bb"
+        },
+        "target": {
+          "id": "a4301ea6-beb0-4574-bc58-534ac3ebd068"
+        },
+        "z": 2
+      }
+    }
+  },
+  "Resources": {
+    "rArchiveLogsBucket": {
+      "Type": "AWS::S3::Bucket",
+      "Properties": {
+        "AccessControl": "LogDeliveryWrite",
+        "LifecycleConfiguration": {
+          "Rules": [
+            {
+              "Id": "Transition90daysRetain7yrs",
+              "Status": "Enabled",
+              "ExpirationInDays": "2555",
+              "Transition": {
+                "TransitionInDays": "90",
+                "StorageClass": {
+                  "Fn::If": [
+                    "SupportsGlacier",
+                    "GLACIER",
+                    "STANDARD_IA"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "VersioningConfiguration": {
+          "Status": "Enabled"
+        }
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "80011600-6dad-4c96-a0f3-5ff4538511ca"
+        }
+      }
+    },
+    "rCloudTrailLoggingLocal": {
+      "Type": "AWS::CloudTrail::Trail",
+      "Properties": {
+        "S3BucketName": {
+          "Ref": "rCloudTrailBucket"
+        },
+        "IsLogging": true,
+        "EnableLogFileValidation": true,
+        "IncludeGlobalServiceEvents": true,
+        "IsMultiRegionTrail": true
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "9f601432-e0de-4306-b5e3-a19b6a8e4672"
+        }
+      },
+      "DependsOn": [
+        "rCloudTrailBucket"
+      ]
+    },
+    "rCloudTrailBucket": {
+      "Type": "AWS::S3::Bucket",
+      "Properties": {
+        "AccessControl": "Private",
+        "VersioningConfiguration": {
+          "Status": "Enabled"
+        },
+        "LoggingConfiguration": {
+          "DestinationBucketName": {
+            "Ref": "rArchiveLogsBucket"
+          },
+          "LogFilePrefix": "cloudtraillogs"
+        },
+        "NotificationConfiguration": {
+          "LambdaConfigurations": [
+            {
+              "Event": "s3:ObjectCreated:Put",
+              "Function": {
+                "Fn::GetAtt": [
+                  "rCorezoidLambda",
+                  "Arn"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "d81b4d45-7477-45c7-9695-d6ef0b09de4a"
+        }
+      }
+    },
+    "rArchiveLogsBucketPolicy": {
+      "Type": "AWS::S3::BucketPolicy",
+      "Properties": {
+        "Bucket": {
+          "Ref": "rArchiveLogsBucket"
+        },
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Sid": "Enforce HTTPS Connections",
+              "Action": "s3:*",
+              "Effect": "Deny",
+              "Principal": "*",
+              "Resource": [
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      "arn:",
+                      {
+                        "Fn::If": [
+                          "IsGovCloud",
+                          "aws-us-gov",
+                          "aws"
+                        ]
+                      },
+                      ":s3:::",
+                      {
+                        "Ref": "rArchiveLogsBucket"
+                      },
+                      "/*"
+                    ]
+                  ]
+                }
+              ],
+              "Condition": {
+                "Bool": {
+                  "aws:SecureTransport": false
+                }
+              }
+            },
+            {
+              "Sid": "Restrict Delete* Actions",
+              "Action": "s3:Delete*",
+              "Effect": "Deny",
+              "Principal": "*",
+              "Resource": [
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      "arn:",
+                      {
+                        "Fn::If": [
+                          "IsGovCloud",
+                          "aws-us-gov",
+                          "aws"
+                        ]
+                      },
+                      ":s3:::",
+                      {
+                        "Ref": "rArchiveLogsBucket"
+                      },
+                      "/*"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "Sid": "DenyUnEncryptedObjectUploads",
+              "Effect": "Deny",
+              "Principal": "*",
+              "Action": "s3:PutObject",
+              "Resource": [
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      "arn:",
+                      {
+                        "Fn::If": [
+                          "IsGovCloud",
+                          "aws-us-gov",
+                          "aws"
+                        ]
+                      },
+                      ":s3:::",
+                      {
+                        "Ref": "rArchiveLogsBucket"
+                      },
+                      "/*"
+                    ]
+                  ]
+                }
+              ],
+              "Condition": {
+                "StringNotEquals": {
+                  "s3:x-amz-server-side-encryption": "AES256"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "52eb4fef-4fd3-4bc1-b921-47131f09764c"
+        }
+      },
+      "DependsOn": [
+        "rArchiveLogsBucket"
+      ]
+    },
+    "rCloudTrailS3Policy": {
+      "Type": "AWS::S3::BucketPolicy",
+      "Properties": {
+        "Bucket": {
+          "Ref": "rCloudTrailBucket"
+        },
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Sid": "AWSCloudTrailAclCheck20150319",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "cloudtrail.amazonaws.com"
+              },
+              "Action": "s3:GetBucketAcl",
+              "Resource": [
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      "arn:",
+                      {
+                        "Fn::If": [
+                          "IsGovCloud",
+                          "aws-us-gov",
+                          "aws"
+                        ]
+                      },
+                      ":s3:::",
+                      {
+                        "Ref": "rCloudTrailBucket"
+                      }
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "Sid": "AWSCloudTrailWrite20150319",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "cloudtrail.amazonaws.com"
+              },
+              "Action": "s3:PutObject",
+              "Resource": [
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      "arn:",
+                      {
+                        "Fn::If": [
+                          "IsGovCloud",
+                          "aws-us-gov",
+                          "aws"
+                        ]
+                      },
+                      ":s3:::",
+                      {
+                        "Ref": "rCloudTrailBucket"
+                      },
+                      "/*"
+                    ]
+                  ]
+                }
+              ],
+              "Condition": {
+                "StringEquals": {
+                  "s3:x-amz-acl": "bucket-owner-full-control"
+                }
+              }
+            },
+            {
+              "Sid": "Enforce HTTPS Connections",
+              "Action": "s3:*",
+              "Effect": "Deny",
+              "Principal": "*",
+              "Resource": [
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      "arn:",
+                      {
+                        "Fn::If": [
+                          "IsGovCloud",
+                          "aws-us-gov",
+                          "aws"
+                        ]
+                      },
+                      ":s3:::",
+                      {
+                        "Ref": "rCloudTrailBucket"
+                      },
+                      "/*"
+                    ]
+                  ]
+                }
+              ],
+              "Condition": {
+                "Bool": {
+                  "aws:SecureTransport": false
+                }
+              }
+            },
+            {
+              "Sid": "Restrict Delete* Actions",
+              "Action": "s3:Delete*",
+              "Effect": "Deny",
+              "Principal": "*",
+              "Resource": [
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      "arn:",
+                      {
+                        "Fn::If": [
+                          "IsGovCloud",
+                          "aws-us-gov",
+                          "aws"
+                        ]
+                      },
+                      ":s3:::",
+                      {
+                        "Ref": "rCloudTrailBucket"
+                      },
+                      "/*"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "Sid": "DenyUnEncryptedObjectUploads",
+              "Effect": "Deny",
+              "Principal": "*",
+              "Action": "s3:PutObject",
+              "Resource": [
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      "arn:",
+                      {
+                        "Fn::If": [
+                          "IsGovCloud",
+                          "aws-us-gov",
+                          "aws"
+                        ]
+                      },
+                      ":s3:::",
+                      {
+                        "Ref": "rCloudTrailBucket"
+                      },
+                      "/*"
+                    ]
+                  ]
+                }
+              ],
+              "Condition": {
+                "StringNotEquals": {
+                  "s3:x-amz-server-side-encryption": "AES256"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "92bbb6b6-2098-40ce-ae30-b4247ebe3b80"
+        }
+      },
+      "DependsOn": [
+        "rCloudTrailBucket"
+      ]
+    },
+    "rCorezoidLambda": {
+      "Type": "AWS::Lambda::Function",
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "a4301ea6-beb0-4574-bc58-534ac3ebd068"
+        }
+      },
+      "Properties": {
+        "Handler": "index.lambda_handler",
+        "Runtime": "python2.7",
+        "Role": {
+          "Fn::GetAtt": [
+            "rLambdaExecutionRole",
+            "Arn"
+          ]
+        },
+        "Code": {
+          "ZipFile": {
+            "Fn::Join": [
+              "",
+              [
+                "import json, urllib2, hashlib, datetime, time\n",
+                "import boto3, gzip\n",
+                "\n",
+                "# insert your credentials for corezoid process here\n",
+                "conv_id = ",
+                {
+                  "Ref": "pCorezoidConvId"
+                },
+                "\n",
+                "api_login = ",
+                {
+                  "Ref": "pCorezoidApiLogin"
+                },
+                "\n",
+                "secret_key = \"",
+                {
+                  "Ref": "pCorezoidApiKey"
+                },
+                "\"\n",
+                "api_url = \"",
+                {
+                  "Ref": "pCorezoidApiUrl"
+                },
+                "\"\n",
+                "s3 = boto3.client('s3')\n",
+                "\n",
+                "def date_to_unixtime(date_obj):\n",
+                "    return int(time.mktime(date_obj.timetuple()))\n",
+                "\n",
+                "def get_signature(event, time, req):\n",
+                "    body = ''.join(map(str,[time, secret_key, req, secret_key]))\n",
+                "    return hashlib.sha1(body).hexdigest()\n",
+                "\n",
+                "def get_content_from_event(bucket_name, key_name):\n",
+                "    s3.download_file(bucket_name, key_name, '/tmp/ct.gz')\n",
+                "    with gzip.open('/tmp/ct.gz', 'rb') as f:\n",
+                "        content = f.read()\n",
+                "    return content\n",
+                "\n",
+                "def push_to_corezoid(request):\n",
+                "       headers = { 'Content-type': 'application/json; charset=utf8' }\n",
+                "       request = json.dumps(request, separators=(',',':'))\n",
+                "\n",
+                "       unixtime = date_to_unixtime(datetime.datetime.now())\n",
+                "       signature = get_signature(request, unixtime, request)\n",
+                "       url = '/'.join(map(str, [ api_url, api_login, unixtime, signature ]))\n",
+                "       req = urllib2.Request(url, request, headers)\n",
+                "       response = urllib2.urlopen(req)\n",
+                "       return response.read()\n",
+                "\n",
+                "def lambda_handler(event, context):\n",
+                "    bucket = event['Records'][0]['s3']['bucket']['name']\n",
+                "    key = event['Records'][0]['s3']['object']['key']\n",
+                "\n",
+                "    data = json.loads(get_content_from_event(bucket, key))\n",
+                "    request = { 'ops': [] }\n",
+                "\n",
+                "    for i in data['Records']:\n",
+                "        request['ops'].append({ 'type': 'create', 'obj': 'task', 'conv_id': conv_id, 'data': i })\n",
+                "\n",
+                "    response = push_to_corezoid(request)\n",
+                "    return response\n"
+              ]
+            ]
+          }
+        }
+      },
+      "DependsOn": [
+        "rLambdaExecutionRole"
+      ]
+    },
+    "rLambdaExecutionRole": {
+      "Type": "AWS::IAM::Role",
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Effect": "Allow",
+              "Principal": {
+                "Service": [
+                  "lambda.amazonaws.com"
+                ]
+              },
+              "Action": [
+                "sts:AssumeRole"
+              ]
+            }
+          ]
+        },
+        "Path": "/",
+        "Policies": [
+          {
+            "PolicyName": "root",
+            "PolicyDocument": {
+              "Version": "2012-10-17",
+              "Statement": [
+                {
+                  "Effect": "Allow",
+                  "Action": [
+                    "logs:*"
+                  ],
+                  "Resource": "arn:aws:logs:*:*:*"
+                },
+                {
+                  "Effect": "Allow",
+                  "Action": [
+                    "s3:GetObject",
+                    "s3:PutObject"
+                  ],
+                  "Resource": [
+                    "arn:aws:s3:::*"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "c65de216-230b-482b-8372-53b9405e16a4"
+        }
+      }
+    },
+    "rBucketPermission": {
+      "Type": "AWS::Lambda::Permission",
+      "Properties": {
+        "FunctionName": {
+          "Ref": "rCorezoidLambda"
+        },
+        "Action": "lambda:InvokeFunction",
+        "Principal": "s3.amazonaws.com",
+        "SourceAccount": {
+          "Ref": "AWS::AccountId"
+        }
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "3239f934-289d-45f2-8b93-467236eba2bb"
+        }
+      }
+    }
+  },
+  "Parameters": {
+    "pSupportsGlacier": {
+      "Description": "Determines hether this region supports Glacier (passed in from Main template)",
+      "Type": "String",
+      "Default": "true"
+    },
+    "pCorezoidConvId": {
+      "Description": "Corezoid Conveyor Id",
+      "Type": "String",
+      "MinLength": "1",
+      "Default": "164080"
+    },
+    "pCorezoidApiLogin": {
+      "Description": "Corezoid API Login",
+      "Type": "String",
+      "MinLength": "1"
+    },
+    "pCorezoidApiKey": {
+      "NoEcho": true,
+      "Description": "Corezoid API Key",
+      "Type": "String",
+      "MinLength": "1"
+    },
+    "pCorezoidApiUrl": {
+      "Description": "Corezoid API Url",
+      "Type": "String",
+      "Default": "https://www.corezoid.com/api/1/json"
+    }
+  },
+  "Conditions": {
+    "IsGovCloud": {
+      "Fn::Equals": [
+        {
+          "Ref": "AWS::Region"
+        },
+        "us-gov-west-1"
+      ]
+    },
+    "SupportsGlacier": {
+      "Fn::Equals": [
+        {
+          "Ref": "pSupportsGlacier"
+        },
+        "true"
+      ]
+    }
+  }
+}
